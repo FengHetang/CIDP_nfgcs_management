@@ -1,0 +1,22 @@
+.bottom_tip{
+    color: black;
+    font-family: 华文楷体;
+    font-size: 18px;
+    position: relative;
+    bottom: 3rem;
+}
+
+
+.first_tip{
+    text-align:right;
+    margin-right: 1rem;
+}
+
+.second_tip{
+    text-align: left;
+    margin-left: 1rem;
+}
+.tip_logo {
+    width: 2rem;
+    height: 2rem;
+}
