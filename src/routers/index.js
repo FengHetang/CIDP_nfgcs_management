@@ -1,5 +1,6 @@
 import Login_Index from "@view/Login/Login_Index";
 import Not_Found from "@view/NotFound";
+import LayoutIndex from "@view/Layout"
 
 const routers = [
     {
@@ -11,6 +12,11 @@ const routers = [
         title: "notfound",
         path: "/notfound",
         element: Not_Found
+    },
+    {
+        title: "layout",
+        path: "/layout",
+        element: LayoutIndex
     },
 ]
 
