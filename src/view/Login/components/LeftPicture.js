@@ -5,7 +5,7 @@ class LeftPicture extends Component {
     render() {
         return (
             <div className={"LeftPicture"}>
-                <img src={leftPicture} alt="" className={"leftpicture"}/>
+                <img src={leftPicture} alt=""  className={"leftpicture"}/>
             </div>
         );
     }

@@ -1,8 +1,8 @@
 .login{
     width: 100vw;
     height: 100vh;
-    background: rgb(255,255,255);
-    background: linear-gradient(121deg, rgba(255,255,255,1) 60%, rgba(66,147,254,1) 100%);
+    background: rgb(232,234,237);
+    background: linear-gradient(153deg, rgba(232,234,237,1) 31%, rgba(33,110,201,1) 100%);
 }
 .MainCard{
     height: 90vh;
@@ -11,23 +11,28 @@
     top: 5vh;
     left: 3vw;
     opacity: 0.6;
+    border-radius: 20px;
     /*元素阴影  文本阴影为 text-shadow*/
     /*box-shadow: 2px 2px 5px black;*/
 }
 .LogonCard{
-    width: 30vw;
+    width: 34vw;
     height: 25rem;
     z-index:999;
     position: absolute;
-    top: 23vh;
-    left: 15vw;
+    top: 20vh;
+    left: 12vw;
+    box-shadow: 2px 2px 5px #888888;
+    border-radius: 20px;
 }
 .LeftPicture{
     position: absolute;
-    top: 23vh;
-    left: 50vw;
+    top: 20vh;
+    left: 55vw;
+
 }
 .LeftPicture .leftpicture{
     width: 36rem;
     height: 25rem;
+    border-radius: 20px;
 }
